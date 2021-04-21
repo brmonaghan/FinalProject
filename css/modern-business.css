@@ -6,7 +6,22 @@
 body {
   padding-top: 56px;
 }
-
+/* Modify the backgorund color */
+.navbar-custom {
+	background-color: lightgreen;
+}
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+	color: green;
+}
+a, h1, h2, h3, h4, h5, p, ul, li {
+  color: green;
+}
+.btn {
+background-color: green;
+color: lightgreen;
+}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
